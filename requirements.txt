@@ -1,0 +1,16 @@
+flask-security-too
+flask-restful
+flask-jwt-extended
+werkzeug
+flask_bcrypt
+flask
+flask-cors
+Flask-SQLAlchemy
+Flask-Mail
+functools
+Celery
+redis
+eventlet
+pillow
+reportlab
+flask-caching

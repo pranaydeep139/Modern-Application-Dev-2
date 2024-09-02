@@ -1,0 +1,15 @@
+sudo apt update (wsl)
+sudo apt install redis-server (wsl)
+sudo service redis-server start (wsl)
+sudo service redis-server status
+redis-cli shutdown (wsl)
+python3 -m celery -A app:celery worker --loglevel=info -P eventlet (wsl)
+python3 -m celery -A app:celery beat --loglevel=info (wsl)
+
+from app import app, db
+app_ctx = app.app_context()
+app_ctx.push()
+db.create_all()
+app_ctx.pop()
+
+npm run serve main.js

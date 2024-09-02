@@ -1,0 +1,22 @@
+{
+  "name": "static",
+  "version": "1.0.0",
+  "author": "",
+  "scripts": {
+    "serve": "vue-cli-service serve"
+  },
+  "main": "main.js",
+  "dependencies": {
+    "vue": "^2.7.15",
+    "vue-router": "^3.6.5",
+    "vue-template-compiler": "^2.7.15"
+  },
+  "devDependencies": {
+    "@vue/cli-service": "^5.0.8",
+    "core-js": "^3.34.0",
+    "vue-loader": "^17.3.1"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "description": ""
+}
